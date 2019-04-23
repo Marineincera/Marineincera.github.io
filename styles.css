@@ -1,0 +1,281 @@
+/* Banner */
+
+
+
+body{
+  margin: 0;
+}
+
+/* Principal banner */ 
+#firstbanner {
+  padding-top: 90px;
+
+}
+
+.hero-container{
+  background: url(photos/plant.jpg) center/ cover;
+  height: 100vh;
+  position: relative;
+  font-family: Montserrat, sans-serif;
+}
+
+
+.hero-body{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 110%;
+  padding-bottom: 80px;
+
+}
+
+.portrait {
+	border-radius: 50%;
+	width: 250px;
+
+}
+
+h1{
+  margin: 0;
+  display: inline;
+  color: #ffffff;
+  font-size: 7rem;
+  opacity: 0.8;
+  line-height: 120px;
+}
+
+span{
+  font-size: 2rem;
+  color: #ffffff;
+  opacity: 0.8;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: flex;
+  margin-top: 0px;
+    }
+
+.button a {
+  color: white;
+  background-color: grey;
+  padding: 20px;
+  border-radius:15px;
+  text-decoration: none;
+  font-size: 30px; 
+  margin:20px;
+  margin-top: 40px; 
+        }
+
+.button a:hover{
+ color:white;
+background-color: #EDA0EC;
+border-radius: 15px;
+        }
+
+/* Description  */
+
+#description-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.description {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+}
+
+.icons{
+  color: #EDA0EC;
+  font-size: 30px;
+}
+
+.description-title{
+  font-size: 50px;
+      }
+
+.description-text {
+  font-size: 20px;
+}
+
+
+/* navbar */ 
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  border-bottom: 2px dashed #EDA0EC;
+}
+
+.logo {
+  width: 40px;
+  border-radius: 25px;
+}
+
+.menu-link {
+  text-decoration: none;
+  margin: 6px 0px 6px 0px;
+  padding: 10px 100px 0px 100px;
+  color: grey;
+  font-size: 30px;
+
+}
+
+.menu-link:hover {
+  background-color: #edc2ec;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+
+/* Education  */ 
+
+.banner-competences-icons {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.competences-case {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+}
+
+.competences-icons {
+  font-size: 70px;
+  padding-bottom: 5px;
+}
+
+
+
+
+/* Banner */
+.banner {
+    background-size: cover !important;
+    background-position: center;
+    background-position-x: right;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.banner-title {
+  text-align: center;
+  color: #EDA0EC;
+  font-size: 100px;
+  padding-top: 50px;
+  padding: 70px 0px 70px 0px;
+}
+
+/* Characteristics and competences */
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+ 
+}
+
+.characteristics {
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.characteristics-img {
+  width: 600px;
+  margin: 0px 50px 0px 50px;
+}
+
+/* Links */
+li {
+  list-style-type: none;
+}
+
+.arrows:before {
+  content : "\002794 ";
+  color: #EDA0EC;
+}
+
+.check {
+  color: #EDA0EC;
+  font-size: 18px;
+  
+}
+
+/* Logiciels */ 
+.softwares {
+  background-color: pink;
+  color: grey;
+  align-items: center;
+}
+
+.softwares-case{
+  color: grey;
+}
+
+.sw1 {
+  color: grey;
+  font-size: 20px;
+}
+
+.sw2 {
+  color: white;
+  font-size: 20px;
+}
+
+.legend {
+  background-color: pink;
+  color: grey;
+}
+
+/* experiences */ 
+
+
+.cv {
+  padding-left:500px;
+  padding-right: 200px;
+  text-align: justify;
+  text-align: right;
+}
+
+/* Creations Realisation */ 
+.creations {
+  text-align: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+}
+
+.creations-img {
+  width: 500px;
+}
+
+
+@media (max-width: 767px) {
+
+
+
+}
