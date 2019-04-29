@@ -1,0 +1,31 @@
+
+
+
+/* Bannière */ 
+#banner {
+	background:linear-gradient(0deg, rgba(75,26,44,0.2), rgba(75,26,44,0.3)), url(images/banner_jojo_opacity.jpg);
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	padding: 10vh;
+	background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+  .bannercontent {
+	background-image: url(images/banner_jojo_opacity.jpg);
+	background-size: cover !important;
+    background-attachment: fixed;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.one {
+	background-position: center;
+}
+
+.two {
+	background-position: bottom;
+}
